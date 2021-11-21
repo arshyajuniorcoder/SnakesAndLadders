@@ -1,0 +1,60 @@
+body {
+    background-color: #444;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.game-box {
+    width: 60%;
+    height: auto;
+    position: relative;
+    margin: 0px auto;
+}
+
+.game-result {
+    width: 80%;
+    height: 60px;
+    color: rgb(255, 187, 85);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(253, 122, 0);
+    border-radius: 30px;
+    margin: 30px auto;
+    padding: 0px;
+    box-shadow: 0px 0px 30px rgb(253, 38, 0);
+}
+
+.player-turn {
+    color: rgb(123, 255, 0);
+}
+
+.board {
+    width: 70%;
+    position: relative;
+    margin: auto;
+    padding: 0px;
+}
+
+.board-image {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.piece {
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    border-radius: 10px;
+    transform: rotate(10deg);
+}
+
+.dice-image {
+    width: 10%;
+    position: absolute;
+    top: 25%;
+    right: 0px;
+    border: none;
+    margin: 0px;
+    cursor: pointer;
+}
